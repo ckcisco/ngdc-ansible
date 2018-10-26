@@ -1,0 +1,5 @@
+.DS_Store
+roles/aws/vars/main.yml
+roles/vcenter/vars/main.yml
+roles/local_user/vars/main.yml
+roles/local_user/files/id_rsa.pub

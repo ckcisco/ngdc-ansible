@@ -1,0 +1,24 @@
+siwapp_deployment:
+  loadsim:
+    - name: ip-172-31-34-114.us-east-2.compute.internal
+      ip: 172.31.34.114
+  haproxy_app:
+    - name: ip-172-31-38-222.us-east-2.compute.internal
+      ip: 172.31.38.222
+  app:
+    - name: ip-172-31-47-6.us-east-2.compute.internal
+      ip: 172.31.47.6
+    - name: ip-172-31-35-106.us-east-2.compute.internal
+      ip: 172.31.35.106
+    - name: ip-172-31-36-239.us-east-2.compute.internal
+      ip: 172.31.36.239
+  haproxy_db:
+    - name: ip-172-31-41-155.us-east-2.compute.internal
+      ip: 172.31.41.155
+  db:
+    - name: ip-172-31-43-83.us-east-2.compute.internal
+      ip: 172.31.43.83
+    - name: ip-172-31-44-247.us-east-2.compute.internal
+      ip: 172.31.44.247
+    - name: ip-172-31-41-150.us-east-2.compute.internal
+      ip: 172.31.41.150
