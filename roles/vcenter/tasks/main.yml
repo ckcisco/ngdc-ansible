@@ -12,9 +12,7 @@
     hardware:
         memory_mb: 4096
         num_cpus: 2
-    snapshot_src: "{{ snapshot }}"
-    template: 'Centos7-Clone-Template'
-    linked_clone: yes
+    template: "{{ template }}"
     networks:
     - name: "{{ db_network }}"
     wait_for_ip_address: yes 
@@ -67,9 +65,7 @@
     hardware:
         memory_mb: 4096
         num_cpus: 2
-    snapshot_src: "{{ snapshot }}"
-    template: 'Centos7-Clone-Template'
-    linked_clone: yes
+    template: "{{ template }}"
     networks:
     - name: "{{ haproxy_db_network }}"
     wait_for_ip_address: yes 
@@ -122,9 +118,7 @@
     hardware:
         memory_mb: 4096
         num_cpus: 2
-    snapshot_src: "{{ snapshot }}"
-    template: 'Centos7-Clone-Template'
-    linked_clone: yes
+    template: "{{ template }}"
     networks:
     - name: "{{ app_network }}"
     wait_for_ip_address: yes 
@@ -177,9 +171,7 @@
     hardware:
         memory_mb: 4096
         num_cpus: 2
-    snapshot_src: "{{ snapshot }}"
-    template: 'Centos7-Clone-Template'
-    linked_clone: yes
+    template: "{{ template }}"
     networks:
     - name: "{{ haproxy_app_network }}"
     wait_for_ip_address: yes 
@@ -232,9 +224,7 @@
     hardware:
         memory_mb: 4096
         num_cpus: 2
-    snapshot_src: "{{ snapshot }}"
-    template: 'Centos7-Clone-Template'
-    linked_clone: yes
+    template: "{{ template }}"
     networks:
     - name: "{{ loadsim_network }}"
     wait_for_ip_address: yes 
